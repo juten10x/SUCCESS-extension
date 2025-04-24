@@ -1,0 +1,12 @@
+{
+  "name": "SUCCESS-extension",
+  "description": "SUCCESSをより使いやすく",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://success.shiga-u.ac.jp/*"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
