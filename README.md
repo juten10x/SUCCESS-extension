@@ -14,3 +14,6 @@
 3. 右上のデベロッパー モードをオンにします。
 4. 先ほどのフォルダを`chrome://extensions/`へそのままドラッグ＆ドロップします。
 5. 完了です。SUCCESSのトップページを開いてみてください。
+
+## ライセンス
+このリポジトリは MIT License のもとで公開しています。詳しくは [`LICENSE`](https://github.com/juten10x/SUCCESS-extension/blob/main/LICENSE) ファイルをご覧ください。
