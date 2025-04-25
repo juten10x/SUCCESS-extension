@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* ページ遷移時にフェードイン */
+body {
+	animation: fadeIn .3s ease-in-out;
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: translate(5px, 5px);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+}
+
+/* 「閉じる」や「詳細」などのボタンにカーソルを合わせたときにカーソルの表示を変える */
+input {
+  cursor: pointer;
+}
+
+/* トップページの時間割表の「前の学期」「次の学期」にカーソルを合わせたときにその文字色を赤にする */
+#ctl00_phContents_Schedule1_lnkPrevTerm:hover,
+#ctl00_phContents_Schedule1_lnkNextTerm:hover {
+  color: red;
+}
