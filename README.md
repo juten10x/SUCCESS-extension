@@ -12,7 +12,7 @@
 ## 使い方
 現在はChrome ウェブストアには公開していません。ゆえに、手動で導入する必要があります。以下に手順を示します。
 
-1. このリポジトリを`git clone`する、または緑の`<> Code`ボタンから`Download ZIP`を押すなどして、`manifest.json` `content_script.js` `mystyle.css`の3つが入ったフォルダ（名前はなんでもOK）を用意してください。
+1. このリポジトリを`git clone`する、または緑の`<> Code`ボタンから`Download ZIP`して解凍するなどして、`manifest.json` `content_script.js` `mystyle.css`の3つが入ったフォルダ（名前はなんでもOK）を用意してください。
 2. Chrome上で、右上の︙ -> 拡張機能 -> 拡張機能を管理 で`chrome://extensions/`へ移動します。
 3. 右上のデベロッパー モードをオンにします。
 4. 先ほどのフォルダを`chrome://extensions/`のページへそのままドラッグ＆ドロップします。
