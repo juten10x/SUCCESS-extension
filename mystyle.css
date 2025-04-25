@@ -2,17 +2,17 @@
 
 /* ページ遷移時にフェードイン */
 body {
-	animation: fadeIn .5s ease-in;
+  animation: fadeIn .5s ease-in;
 }
 @keyframes fadeIn {
-	0% {
-		opacity: 0;
-		transform: translate(5px, 5px);
-	}
-	100% {
-		opacity: 1;
-		transform: translate(0, 0);
-	}
+  0% {
+    opacity: 0;
+    transform: translate(5px, 5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 /* 「閉じる」や「詳細」などのボタンにカーソルを合わせたときにカーソルの表示を変える */
