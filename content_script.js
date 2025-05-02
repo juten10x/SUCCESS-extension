@@ -1,3 +1,4 @@
+/* トップページの時間割表にそれぞれの時限の開始・終了時刻を表示する */
 if (document.URL.match(/Top.aspx/)) {
   let id_name = "[id='ctl00_phContents_Schedule1_lblPeriod";
   let id_name_copy = id_name;
