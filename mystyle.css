@@ -16,7 +16,7 @@ body {
 }
 
 /* 「閉じる」や「詳細」などのボタンにカーソルを合わせたときにカーソルの表示を変える */
-input {
+input[type="button"], input[type="submit"] {
   cursor: pointer;
 }
 
